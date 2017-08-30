@@ -26,84 +26,91 @@ Nesse módulo vamos aprender **Lógica de Programação**.
 **Ferramentas e materiais de apoio:** Coming Soon<br>
 **Duração:** TBD.
 
-### Aula 03 - Variáveis
+### Aula 03 - Algoritmos
+
+**Objetivos:** Compreender o que são Algoritmos.<br>
+**Formato de apresentação:** Aulas em vídeo, desafios e exercícios.<br>
+**Ferramentas e materiais de apoio:** Coming Soon<br>
+**Duração:** TBD.
+
+### Aula 04 - Variáveis
 
 **Objetivos:** Compreender o que são e como funcionam variáveis.<br>
 **Formato de apresentação:** Aulas em vídeo, desafios e exercícios.<br>
 **Ferramentas e materiais de apoio:** Coming Soon<br>
 **Duração:** TBD.
 
-### Aula 04 - Operadores Matemáticos
+### Aula 05 - Operadores Matemáticos
 
 **Objetivos:** Aprender operadores matemáticos.<br>
 **Formato de apresentação:** Aulas em vídeo, desafios e exercícios.<br>
 **Ferramentas e materiais de apoio:** Coming Soon<br>
 **Duração:** TBD.
 
-### Aula 05 - Estruturas Condicionais
+### Aula 06 - Estruturas Condicionais
 
 **Objetivos:** Aprender as estruturas condicionais e tomadas de decisão.<br>
 **Formato de apresentação:** Aulas em vídeo, desafios e exercícios.<br>
 **Ferramentas e materiais de apoio:** Coming Soon<br>
 **Duração:** TBD.
 
-### Aula 06 - Operadores Lógicos
+### Aula 07 - Operadores Lógicos
 
 **Objetivos:** Aprender os operadores lógicos e suas aplicações em tomadas de decisão.<br>
 **Formato de apresentação:** Aulas em vídeo, desafios e exercícios.<br>
 **Ferramentas e materiais de apoio:** Coming Soon<br>
 **Duração:** TBD.
 
-### Aula 07 - Estruturas de Repetição
+### Aula 08 - Estruturas de Repetição
 
 **Objetivos:** Entender as estruturas básicas de repetição.<br>
 **Formato de apresentação:** Aulas em vídeo, desafios e exercícios.<br>
 **Ferramentas e materiais de apoio:** Coming Soon<br>
 **Duração:** TBD.
 
-### Aula 08 - Funções
+### Aula 09 - Funções
 
 **Objetivos:** Entender o que são e pra que servem funções.<br>
 **Formato de apresentação:** Aulas em vídeo, desafios e exercícios.<br>
 **Ferramentas e materiais de apoio:** Coming Soon<br>
 **Duração:** TBD.
 
-### Aula 09 - Estruturas básicas de dados
+### Aula 10 - Estruturas básicas de dados
 
 **Objetivos:** Compreender estruturas básicas de dados.<br>
 **Formato de apresentação:** Aulas em vídeo, desafios e exercícios.<br>
 **Ferramentas e materiais de apoio:** Coming Soon<br>
 **Duração:** TBD.
 
-### Aula 10 - Introdução à Orientação à Objetos
+### Aula 11 - Introdução à Orientação à Objetos
 
 **Objetivos:** Entender os conceitos básicos de POO.<br>
 **Formato de apresentação:** Aulas em vídeo, desafios e exercícios.<br>
 **Ferramentas e materiais de apoio:** Coming Soon<br>
 **Duração:** TBD.
 
-### Aula 11 - Classes e Atributos
+### Aula 12 - Classes e Atributos
 
 **Objetivos:** Entender como funcionam classes e atributos.<br>
 **Formato de apresentação:** Aulas em vídeo, desafios e exercícios.<br>
 **Ferramentas e materiais de apoio:** Coming Soon<br>
 **Duração:** TBD.
 
-### Aula 12 - Métodos
+### Aula 13 - Métodos
 
 **Objetivos:** Entender métodos de uma classe.<br>
 **Formato de apresentação:** Aulas em vídeo, desafios e exercícios.<br>
 **Ferramentas e materiais de apoio:** Coming Soon<br>
 **Duração:** TBD.
 
-### Aula 13 - Herança
+### Aula 14 - Herança
 
 **Objetivos:** Entender herança em POO.<br>
 **Formato de apresentação:** Aulas em vídeo, desafios e exercícios.<br>
 **Ferramentas e materiais de apoio:** Coming Soon<br>
 **Duração:** TBD.
 
-### Aula 14 - Construindo um sistema completo
+### Aula 15 - Construindo um sistema completo
 
 **Objetivos:** Construir um sistema de controle de estoque usando POO e estruturas de dados.<br>
 **Formato de apresentação:** Aulas em vídeo, desafios e exercícios.<br>
