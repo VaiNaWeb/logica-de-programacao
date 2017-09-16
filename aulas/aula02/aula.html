@@ -11775,10 +11775,9 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="L&#243;gica-de-Programa&#231;&#227;o">L&#243;gica de Programa&#231;&#227;o<a class="anchor-link" href="#L&#243;gica-de-Programa&#231;&#227;o">&#182;</a></h1><h1 id="Aula-02-(Algoritmos,-parte-1)">Aula 02 (Algoritmos, parte 1)<a class="anchor-link" href="#Aula-02-(Algoritmos,-parte-1)">&#182;</a></h1><h2 id="Objetivos-da-aula:">Objetivos da aula:<a class="anchor-link" href="#Objetivos-da-aula:">&#182;</a></h2><ul>
-<li>Aprender o que é um algoritmo</li>
-<li>Criar algoritmos simples</li>
-<li>Exercitar o raciocínio lógico</li>
+<h1 id="L&#243;gica-de-Programa&#231;&#227;o">L&#243;gica de Programa&#231;&#227;o<a class="anchor-link" href="#L&#243;gica-de-Programa&#231;&#227;o">&#182;</a></h1><h1 id="Aula-02---Algoritmos-(Tomadas-de-decisa&#771;o)">Aula 02 - Algoritmos (Tomadas de decisa&#771;o)<a class="anchor-link" href="#Aula-02---Algoritmos-(Tomadas-de-decisa&#771;o)">&#182;</a></h1><h2 id="Objetivos-da-aula:">Objetivos da aula:<a class="anchor-link" href="#Objetivos-da-aula:">&#182;</a></h2><ul>
+<li>Exercitar algoritmos</li>
+<li>Aprender sobre tomada de decisão</li>
 </ul>
 
 </div>
@@ -11788,21 +11787,46 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="O-que-&#233;-um-algoritmo?">O que &#233; um algoritmo?<a class="anchor-link" href="#O-que-&#233;-um-algoritmo?">&#182;</a></h2><p>Segundo o dicionário, algoritmo é:</p>
-<blockquote><p>substantivo masculino</p>
-<ol>
-<li>[mat] sequência finita de regras, raciocínios ou operações que, aplicada a um número finito de dados, permite solucionar classes semelhantes de problemas.</li>
-<li>[inf] conjunto das regras e procedimentos lógicos perfeitamente definidos que levam à solução de um problema em um número finito de etapas.</li>
-</ol>
+<h2 id="Estruturas-do-fluxograma">Estruturas do fluxograma<a class="anchor-link" href="#Estruturas-do-fluxograma">&#182;</a></h2><p>Como vimos na última aula, podemos utilizar fluxogramas para representar algoritmos de forma visual.</p>
+<p>O Fluxograma possui as seguintes estruturas:</p>
+<p><img src="assets/estruturas.jpg" alt=""></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Tomadas-de-decisa&#771;o">Tomadas de decisa&#771;o<a class="anchor-link" href="#Tomadas-de-decisa&#771;o">&#182;</a></h2><p>Nos exemplos que vimos até agora, nossos programas apenas seguiam uma sequência lógica do início ao fim. Porém, em vários momentos, programas precisarão tomar decisões e escolherem caminhos para seguir.</p>
+<p>Por exemplo: Imagine que você precisa programar um robô para fazer as compras, mas antes, ele precisa verificar se não está chovendo, pois se estiver, ele precisará de um guarda-chuva.</p>
+<p>Como poderíamos fazer isso?</p>
+<p>Nosso robô precisa tomar uma decisão baseada na condição de estar ou não chovendo.</p>
+<p>Vamos representar este algoritmo em um fluxograma:</p>
+<p><img src="assets/chovendo.jpg" alt=""></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Como podemos ver, o programa pode seguir "caminhos" diferentes baseado na decisão que ele tiver de tomar.</p>
+<p>Tomadas de decisão ocorrem o tempo todo em qualquer tipo de programa, pois na maioria das vezes, teremos condições específicas para uma determinada coisa acontecer ou tarefa ser executada.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Curiosidade</strong>: Exite uma piada sobre tomada de decisão:</p>
+<blockquote><p>A mulher disse para o marido programador:</p>
+<p>"Amor, vá ao mercado e compre uma caixa de leite. Se tiver ovos, por favor, traz 6."</p>
+<p>O Programador voltou do supermercado com 6 caixas de leite e nenhum ovo.</p>
 </blockquote>
-<p>Vamos ficar com a definição da informática, a número 2.</p>
-<p>Um algoritmo:</p>
-<ol>
-<li>É um conjunto de regras</li>
-<li>Segue uma sequência lógica</li>
-<li>Solucionam um problema</li>
-<li>Tem um número finito de etapas</li>
-</ol>
 
 </div>
 </div>
@@ -11811,115 +11835,8 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Podemos pensar em um algoritmo como uma receita de bolo</strong></p>
-<p>Imagine que o computador precisa fazer um bolo. Como você ensinaria ele à fazer isso? Provavelmente você daria uma receita.</p>
-<p>O algoritmo é a receita para a solução do problema.</p>
-<p><em>Lembre-se: O computador não faz nada sozinho, ele deve ser ensinado à solucionar o problema através de um algoritmo. Em outras palavras, o computador é burro!</em></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Como-escrevemos-um-algoritmo?">Como escrevemos um algoritmo?<a class="anchor-link" href="#Como-escrevemos-um-algoritmo?">&#182;</a></h2><p>Para escrever algoritmos, usamos as linguagens de programação. São uma espécie de idioma que o computador entende.</p>
-<p>Você fala com um brasileiro em português, com o americano em inglês, com o alemão em alemão, e com o computador?</p>
-<p>Falamos com o computador através de linguagens que ele entende, as linguagens de programação.</p>
-<p>Neste curso usaremos as linguagens: <code>Python</code> e <code>Javascript</code>.</p>
-<p><strong>Obs: Nas aulas iniciais de algoritmos não usaremos nenhuma linguagem de programação, apenas exercitaremos nossa lógica usando o português</strong></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Nosso-primeiro-algoritmo">Nosso primeiro algoritmo<a class="anchor-link" href="#Nosso-primeiro-algoritmo">&#182;</a></h2><p>Lembra que o algoritmo é uma "receita"?</p>
-<p>Vamos ensinar o computador à fazer um bolo.</p>
-<p>O que precisamos para esse bolo? Quais os ingredientes?</p>
-<ul>
-<li>Farinha</li>
-<li>Ovos</li>
-<li>Açúcar</li>
-<li>Leite</li>
-</ul>
-<p>Agora, precisamos descrever para o computador o que ele deve fazer, lembre-se que o algoritmo é uma <strong>sequência</strong> lógica. Se algo for feito fora de sequência nosso bolo irá dar errado.</p>
-<p>Vamos lá:</p>
-<ol>
-<li>Coloque os ingredientes sobre a mesa</li>
-<li>Coloque um pote sobre a mesa para preparar a massa</li>
-<li>Abra o pacote de farinha</li>
-<li>Coloque 1 xícara de farinha dentro do pote</li>
-<li>Quebre os ovos dentro do pote</li>
-<li>Misture um pouco a farinha e os ovos</li>
-<li>Coloque 1/2 xícara de açúcar no pote</li>
-<li>Adicione 2 copos de leite ao pote</li>
-<li>Misture a massa até ficar no ponto</li>
-<li>Unte a forma com manteiga</li>
-<li>Pegue o pote e despeje a massa na forma</li>
-<li>Abra o forno e coloque a forma</li>
-<li>Feche o forno e aguarde meia hora</li>
-<li>Desligue o forno, seu bolo está pronto!</li>
-</ol>
-<p>Simples não? Com alguns passos fizemos um bolo!</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="http://s.glbimg.com/po/rc/media/2015/06/23/12_54_11_204_bolo.jpg" alt=""></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Exercitando-alguns-algoritmos">Exercitando alguns algoritmos<a class="anchor-link" href="#Exercitando-alguns-algoritmos">&#182;</a></h2><p>Vamos exercitar alguns algoritmos.</p>
-<p>Primeiro, vamos programar um robô para trocar uma lâmpada queimada. Os passos seriam:</p>
-<ol>
-<li>Pegue uma escada</li>
-<li>Coloque a escada embaixo da lâmpada</li>
-<li>Suba na escada</li>
-<li>Retire a lâmpada queimada</li>
-<li>Desça da escada</li>
-<li>Pegue a lâmpada nova</li>
-<li>Suba na escada</li>
-<li>Coloque a lâmpada nova</li>
-<li>Desça da escada</li>
-<li>Jogue a lâmpada queimada no lixo</li>
-<li>Guarde a escada</li>
-</ol>
-<p>Pronto! A luz está de volta!</p>
-<p>Que tal aproveitarmos nosso robôzinho e pedir pra ele lavar a forma que fizêmos o bolo? Vamos lá:</p>
-<ol>
-<li>Vá até a cozinha</li>
-<li>Pegue a forma na mesa</li>
-<li>Coloque a forma na pia</li>
-<li>Abra a torneira e deixe a forma umedecer</li>
-<li>Feche a torneira</li>
-<li>Ensaboe a forma e esfregue bem</li>
-<li>Abra a torneira</li>
-<li>Enxágue a forma</li>
-<li>Fehce a torneira</li>
-<li>Guarde a forma</li>
-</ol>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Agora-&#233;-com-voc&#234;!">Agora &#233; com voc&#234;!<a class="anchor-link" href="#Agora-&#233;-com-voc&#234;!">&#182;</a></h2><p>Abra os exercícios desta aula e faça da maneira que achar melhor. Pode escrever num pedaço de papel, ou digitar no computador. A idéia é exercitar o seu pensamento lógico!</p>
-<p><strong>Lembre-se de fazer também os desafios para reforçar ainda mais seu aprendizado!!</strong></p>
+<p>Traduzindo a piada para um fluxograma, teríamos:</p>
+<p><img src="assets/leite_ovo.jpg" alt=""></p>
 
 </div>
 </div>
